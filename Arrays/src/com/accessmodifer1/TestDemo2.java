@@ -3,7 +3,7 @@ package com.accessmodifer1;
 public class TestDemo2 {
 	
 	public static void main(String[] args) {
-		System.out.println("maim method started from TestDemo2");
+		System.out.println("main method started from TestDemo2");
 		
 		
 		 //we can't access private data members outside of the classes
@@ -32,3 +32,15 @@ public class TestDemo2 {
 	}
 
 }
+
+
+//output:  maim method started from TestDemo2
+//static block called from TestDemo1
+//instance block called from TestDemo1
+//no-args constructor called
+//7
+//ravi
+//methos2 called
+//10
+//virat
+//method3 called
