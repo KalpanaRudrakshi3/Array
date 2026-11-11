@@ -33,7 +33,7 @@ class Employe{
 		this.eid=emp.eid;
 		this.sal=emp.sal;
 		this.name=emp.name;
-		this.address=new Address2(emp.address);
+		this.address=new Address2(emp.address);//copy constructor ke main
 	
 	}
 
